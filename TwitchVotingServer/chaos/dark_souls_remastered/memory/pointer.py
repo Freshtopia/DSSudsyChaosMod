@@ -23,6 +23,9 @@ class PointerOffsets:
         class Body:
             HEAD_SIZE = [0x10, 0x388]
             ARM_SIZE = [0x10, 0x394]
+            CHEST_SIZE = [0x10, 0x38C]
+            LEG_SIZE = [0x10, 0x398]
+            AB_SIZE = [0x10, 0x390]
 
 
         class Animations:
@@ -51,6 +54,12 @@ class Pointer:
                 return _get_pointer(pm, BaseB, PointerOffsets.Player.Body.HEAD_SIZE)
             def arm_size(pm, BaseB):
                 return _get_pointer(pm, BaseB, PointerOffsets.Player.Body.ARM_SIZE)
+            def chest_size(pm, BaseB):
+                return _get_pointer(pm, BaseB, PointerOffsets.Player.Body.CHEST_SIZE)
+            def leg_size(pm, BaseB):
+                return _get_pointer(pm, BaseB, PointerOffsets.Player.Body.LEG_SIZE)
+            def ab_size(pm, BaseB):
+                return _get_pointer(pm, BaseB, PointerOffsets.Player.Body.AB_SIZE)
 
         class Animations:
             def slide(pm, BaseX):

@@ -11,18 +11,22 @@ enabled = false
 channel_point_alias = ""
 
 [GUI_EFFECTS.disable_hud]
-enabled = false
+enabled = true
 channel_point_alias = ""
 
 [HEAD_EFFECTS.big_head]
-enabled = true
+enabled = false
 channel_point_alias = ""
 
 [HEAD_EFFECTS.tiny_head]
-enabled = true
+enabled = false
 channel_point_alias = ""
 
 [BODY_EFFECTS.big_arm]
+enabled = true
+channel_point_alias = ""
+
+[BODY_EFFECTS.malnourished]
 enabled = true
 channel_point_alias = ""
 
