@@ -6,8 +6,8 @@ VOTING_DURATION = 15
 EFFECT_DURATION = 15
 
 [TWITCH]
-CHANNEL = "IncognitusAU"
-TMI_TOKEN = "oauth:ad66pjmjvu9kbku98oa7uyq6fu45jd"
+CHANNEL = ""
+TMI_TOKEN = ""
 
 [GUI]
 STAY_ON_TOP = false
